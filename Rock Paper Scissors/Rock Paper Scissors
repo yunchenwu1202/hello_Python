@@ -1,0 +1,30 @@
+# Online Python compiler (interpreter) to run Python online.
+# Write Python 3 code in this online editor and run it.
+# Get started with interactive Python!
+# Supports Python Modules: builtins, math,pandas, scipy 
+# matplotlib.pyplot, numpy, operator, processing, pygal, random, 
+# re, string, time, turtle, urllib.request
+import matplotlib.pyplot as plt
+import pandas as pd
+import numpy as np
+import scipy as sp
+
+#players choice 
+player_choice = input("Rock Paper or Scissors? ")
+print(player_choice)
+
+#computers choice
+
+
+#draw outcome 
+#if the player's choice matches the computer's choice
+  #it's a draw
+  
+#player has chosen rock  
+#win outcome 
+#if the computer hsa chosen scissors
+  #player wins 
+
+#lose outcome
+#if the computer chose paper 
+  #player loses 
