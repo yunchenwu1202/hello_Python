@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
 import scipy as sp
-
+```python
 #players choice 
 player_choice = input("Rock Paper or Scissors? ")
 print(player_choice)
@@ -28,3 +28,7 @@ print(player_choice)
 #lose outcome
 #if the computer chose paper 
   #player loses 
+
+
+
+```
