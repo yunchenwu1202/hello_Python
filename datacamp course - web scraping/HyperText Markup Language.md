@@ -45,6 +45,27 @@
 
 ```
 
+## Class
+```html
+<html>
+  <head>
+    <title>Website Title</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="class1" id="div1">
+      <p class="class2">
+        Visit <a href="http://datacamp.com/">DataCamp</a>!
+      </p>
+    </div>
+    <div class="class1 class3" id="div2">
+      <p class="class2">
+        Or search for it on <a href="http://www.google.com">Google</a>!
+      </p>
+    </div>
+  </body>
+</html>
+```
 
 
 
