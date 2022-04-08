@@ -10,6 +10,7 @@
     <p> Hope you have enjoyed the video! </p>
   </body>
 </html>
+```
 
 ## HTML Tags and Attributes
 * Easier way to find elements! 
