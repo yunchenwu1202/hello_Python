@@ -67,5 +67,32 @@
 </html>
 ```
 
+## Slasher
+```html
+xpath = '/html/body/div[2]'
+```
+* tag-names between slashes give dirextion to which element(s).
+* '[ ]' is to specify which div we need. The example has shown that we are searching for the second div.
+
+
+## Double slasher
+```html
+xpath = '//table'
+```
+* Direct to all the table elements. 
+
+Or:
+```html
+xpath = '/html/body/div[2]//table'
+```
+* Direct to all table elements which are descendants of 2nd div child of the body element.
+
+
+
+
+
+
+
+
 
 
