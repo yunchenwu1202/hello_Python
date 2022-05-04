@@ -16,3 +16,41 @@ for artist in artists:
   print(name)
   print(fullLink)
   ```
+# Reading CSV files
+
+```python
+import pandas as pd
+file = 'FileExample.csv'
+df = pd.read_csv(file)
+```
+
+# Adding Headers 
+```python 
+df.columns = ['Name','Phone Number','Birthday']
+```
+
+## Reading JSON files
+
+```pyhton
+import json
+with open('filesample.json','r') as openfile:
+  json_object = json.load(openfile)
+ print(json_object)
+ ```
+ 
+ ## Reading XML files
+ ```python 
+ import pandas as pd
+ import xml.etree.ElementTree as etree
+ tree = etree.parse("fileExample.xml")
+ root = tree.getroot()
+columns = ['Name','Phone Number','Birthday']
+df = pd.DataFrame(columns = columns)
+
+for node in root:
+name = node.find("name").text
+phonenumber = node.find("phonenumber").text
+birthday = node.find("birthday").text
+
+df = df.append(pd.Series([name, phonenumber, birthday], index = columns)... . ., ignore_index = True)
+```
